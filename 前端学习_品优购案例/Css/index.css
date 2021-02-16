@@ -1,0 +1,494 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    background-color: violet;
+}
+
+.focus img {
+    width: 720px;
+    height: 455px;
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+}
+
+.arrow-l {
+    left: 0;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newflash {
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 164px;
+    border: 1px solid #e4e4e4;
+    border-bottom: 0;
+}
+
+.news li {
+    font-size: 10px;
+    color: #666666;
+}
+
+.news h3 {
+    display: inline;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    /* margin :10px 15px 7px 15px  ; */
+}
+
+.news .news_hd {
+    height: 33px;
+    width: 248px;
+    border-bottom: 1px dotted #e8e8e7;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+.news .news_hd i {
+    text-align: center;
+    font-size: 7px;
+    line-height: 33px;
+    height: 33px;
+    margin-right: 15px;
+    margin: 1px 15px 0 8px;
+}
+
+.news .news_bd {
+    padding: 12px 0 10px 15px;
+}
+
+.news .news_bd li {
+    height: 23px;
+}
+
+.news .news_bd b {
+    margin-right: 5px;
+}
+
+/* .lifeservice */
+.lifeservice {
+    height: 212px;
+    border-top: none;
+    border: 1px solid #e4e4e4;
+
+}
+
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.lifeservice li i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+
+.lifeservice li p {
+    text-align: center;
+}
+
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.service_ico_huafei {
+    background-position: -17px -16px;
+}
+
+.service_ico_jipiao {
+    background-position: -78px -16px;
+}
+
+.service_ico_dianyingpiao {
+    background-position: -140px -16px;
+}
+
+.service_ico_youxi {
+    background-position: -206px -16px;
+}
+
+.service_ico_caipiao {
+    background-position: -17px -88px;
+}
+
+.service_ico_jiayouka {
+    background-position: -78px -88px;
+}
+
+.service_ico_jiudian {
+    background-position: -141px -88px;
+}
+
+.service_ico_huochepiao {
+    background-position: -206px -88px;
+}
+
+.service_ico_zhongchou {
+    background-position: -17px -159px;
+}
+
+.service_ico_licai {
+    background-position: -78px -159px;
+}
+
+.service_ico_lipinka {
+    background-position: -140px -159px;
+}
+
+.service_ico_baitiao {
+    background-position: -206px -159px;
+}
+
+.service_ico_jianjia {
+    position: absolute;
+    top: -3px;
+    right: 1px;
+    width: 10px;
+    height: 10px;
+}
+
+.service_ico_jianjia img {
+    width: 12px;
+    height: 15px;
+}
+
+.por {
+    position: relative;
+}
+
+
+/* .bargin */
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+}
+
+.bargin img {
+    height: 75px;
+    width: 250px;
+}
+
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recommend_hd {
+    width: 206px;
+    height: 163px;
+    background-color: #666666;
+    text-align: center;
+}
+
+.recommend_hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recommend_hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.recommend_bd {
+    width: 994px;
+    height: 163px;
+    background-color: #ebebeb;
+
+}
+
+.recommend_bd li {
+    float: left;
+    width: 248.5px;
+    height: 143px;
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+    border-right: 1px solid #ededed;
+}
+
+.recommend_bd img {
+    width: 247.5px;
+}
+
+.recommend_bd .lastone {
+    border-right: 0;
+}
+
+.youlike {
+    height: 258px;
+    margin-top: 10px;
+}
+
+.youlike_title {
+    height: 28px;
+    margin-bottom: 5px;
+}
+
+.youlike .youlike_title h2 {
+    float: left;
+    display: inline;
+    font-size: 18px;
+    color: #333333;
+    font-style: normal;
+}
+
+.youlike a {
+    float: right;
+}
+
+.youlike_pic {
+    border: 1px solid #ededed;
+    height: 230px;
+}
+
+.youlike_pic li {
+    float: left;
+}
+
+.funarea {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 433px;
+}
+
+.funarea h3 {
+    font-size: 18px;
+    font-style: normal;
+    color: #333333;
+
+}
+
+.funarea_content {
+    height: 405px;
+    border: 1px solid #ebebeb;
+}
+
+.funarea_content .funbook {
+    float: left;
+    height: 405px;
+    width: 404px;
+    background-color: tomato;
+}
+
+.funarea_content .goods {
+    float: left;
+    width: 226px;
+    height: 405px;
+}
+
+.goods .gdtitle {
+    float: left;
+    width: 226px;
+    height: 40px;
+    border-bottom: 1px dashed #ebebeb;
+    border-right: 1px dashed #ebebeb;
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #333333;
+    border-left: none;
+}
+
+.goods_jp {
+    border-bottom: 1px solid #ededed;
+}
+
+.goods_ft {
+    width: 100%;
+    height: 158px;
+    border-left: none;
+
+}
+
+.pinpaigou {
+    float: left;
+    width: 405px;
+    height: 405px;
+    background-color: violet;
+}
+
+.pinpaigou .pintitle {
+    float: left;
+    width: 405px;
+    height: 40px;
+    border-bottom: 1px dashed #ebebeb;
+    border-right: 1px solid #ebebeb;
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #333333;
+    border-left: none;
+}
+
+.pinpaigou .fun_dianfanbao img {
+    width: 405px;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.pinpaigou #pin_tm img {
+    width: 203px;
+    height: 159px;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.pinpaigou #pin_dapai img {
+    width: 202px;
+    height: 159px;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.funarea_ico {
+    float: left;
+    width: 162px;
+    height: 405px;
+}
+
+.funarea_ico img {
+    border-right: 1px solid #ebebeb;
+    transition: width 1s;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list li a {
+    margin: 0 15px;
+}
+
+.box_bd {
+    height: 360px;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ededed;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ededed;
+}
+
+.tab-con li {
+    float: left;
+    height: 361px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ededed;
+}
+
+.tab-con-list li {
+    overflow: hidden;
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ebebeb;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.fixtool {
+    position: fixed;
+    top: 100px;
+    width: 66px;
+    background-color: red;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>两面翻转的盒子</title>
+    <style>
+        body {
+            perspective: 400px;
+        }
+
+        .box {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 100px auto;
+            transition: all .5s;
+            /* 让后面的盒子保留3d呈现 */
+            transform-style: preserve-3d;
+        }
+
+        .front,
+        .back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            font-size: 30px;
+            color: black;
+            text-align: center;
+            line-height: 300px;
+        }
+
+        .front {
+            background-color: red;
+            z-index: 1;
+        }
+
+        .back {
+            background-color: blue;
+            /* 后面的盒子先旋转180度 */
+            transform: rotateY(180deg);
+        }
+
+        .box:hover {
+            /* 父盒子旋转180度 */
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="front">
+            黑马程序员
+        </div>
+
+        <div class="back">
+            就是我！
+        </div>
+    </div>
+</body>
+
+</html>
